@@ -28,11 +28,11 @@ public class Main {
         Random random = new Random();
         Time randomTime = timeList.get(random.nextInt(timeList.size())); // Случайное время
 
-
-
         // Вызываем метод для запуска сценария
         ScenarioTrigger eventTrigger = new ScenarioTrigger();
         eventTrigger.triggerScenario(neznaika, button, machine, rope, pole, randomTime);
+
+
     }
 
 }
